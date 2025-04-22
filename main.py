@@ -1,9 +1,8 @@
 from Enemy import *
 
-enemy= Enemy()
-enemy.type="Zombie"
+Zombie= Enemy()
+Zombie.type="Zombie"
 
-enemy.Talk()
-enemy.walk_forward()
-enemy.attack()
-print(f"{enemy.type} has {enemy.health} health points and can do an attack of {enemy.attack_damage}")
+Zombie.Talk()
+Zombie.walk_forward()
+Zombie.attack()

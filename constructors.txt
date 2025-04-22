@@ -1,0 +1,19 @@
+3 types of constructors
+
+-default constructor.... this is automatically added by py if u dont add it... 
+  # def __init__(self):
+       pass
+
+-no argument constructor ... this has some type of functionality to eat.. when we create an object, this constructor will be called
+# def __init__(self):
+       print("object created") , when we create an object, this will be printed on the console..
+
+-parameter constructor... this one accepts parameters and does more stuffs...
+#def __init__(self,  type:str,health:int=10,attack_damage:int=1)
+     self.type=type
+     self.health=health
+     self.attack_damage=attack_damage
+
+     #10 and 1 are default values if we dont specify those when creating objects...
+  
+  
