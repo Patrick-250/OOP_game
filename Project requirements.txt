@@ -1,0 +1,4 @@
+1.enemies that can fight each other
+2.different types of enemies: zombies,ogre
+3.heroes maybe
+4. each enemy should have different powers,health points and attack damage

@@ -1,0 +1,14 @@
+1.encapsulation
+
+2.abstraction ---- hide complexity of implementation and only shows whats necessary to the user..
+# with flashlight analogy, users dont need to know how lights turns on/off.. just how to use on/off buttons..
+#check function talk in Enemy.py, it has print(), that could be  a very very long implementation..
+#in main.py, all we do is just call talk() on object without needing to know how its implemented in Enemy.py,
+#thats encapsulation in action.
+#this create simple reusable code... DRY principle
+#more scalable object
+
+
+3.inheritance
+4.polymorphism
+
