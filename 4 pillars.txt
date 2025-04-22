@@ -62,3 +62,8 @@ class Animal:                           class Dog(Animal):
 
 4.polymorphism
 
+polymorphism means to have many forms... poly many morph means form lols
+
+with our animal class, we can have Dog, Bird and other many classes..
+
+

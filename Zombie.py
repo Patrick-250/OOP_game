@@ -6,7 +6,7 @@ class Zombie(Enemy):
 
     #override the talk method from Enemy class
    def Talk(self):
-      print("***crumbling***")
+      return"***crumbling***"
    #create a spread disease that is unique to zombie class
    def Spread_disease(self):
-      print("spreading infections")
+      return"spreading infections"
