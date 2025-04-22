@@ -1,8 +1,10 @@
 from Enemy import *
+from Zombie import *
 
-Zombie= Enemy()
-Zombie.type="Zombie"
+Zombie= Zombie(1,10)
+print(Zombie.Talk())
+print(Zombie.getType())
 
-Zombie.Talk()
-Zombie.walk_forward()
-Zombie.attack()
+
+
+

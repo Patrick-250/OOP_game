@@ -9,7 +9,7 @@
        print("object created") , when we create an object, this will be printed on the console..
 
 -parameter constructor... this one accepts parameters and does more stuffs...
-#def __init__(self,  type:str,health:int=10,attack_damage:int=1)
+#def __init__(self,  type:str,health:int=10,attack_damage:int=1):
      self.type=type
      self.health=health
      self.attack_damage=attack_damage

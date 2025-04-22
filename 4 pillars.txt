@@ -1,4 +1,25 @@
-1.encapsulation
+1.encapsulation ----bundling of data, consider those enemies,, zombie,vempires and ogra...
+# well we could easily change the attributes as we want,, see below example
+#zombie.type="Vampire"
+# the question is, why would a zombie ever be a vampire,, something we shouldnt do....
+# consider that those attributes as they were completely public accessible(anyway, we cant really say public in python lols...)
+#so, what can we do so those attributes are not changeable.... 
+#so we want the type to not be changed once the object is being created...
+#we need to chnage those attributes from public(technically they were public) to private...
+# python has a very simple way to do that,,, just have a double underscore before the attribute and you done.. see below
+
+change self.type=type to self.__type=type
+# after that, we cant change it nor even access it.. so to access it or change it,, that were encapsulation comes to play.
+
+# to do that we use getters/setters functions
+
+def getType(self):
+   return self.__type
+def setType(self,type):
+   self.__type=type
+
+
+
 
 2.abstraction ---- hide complexity of implementation and only shows whats necessary to the user..
 # with flashlight analogy, users dont need to know how lights turns on/off.. just how to use on/off buttons..
@@ -9,6 +30,35 @@
 #more scalable object
 
 
-3.inheritance
+3.inheritance... process of acquiring properties from one class to the other..
+child class acquire properties of the parent class,,, see below..
+a dog class inherits all properties of Animal class and also add its own.. child class also inherits everything includding methods.
+
+
+class Animal:                           class Dog(Animal):
+                                         
+                                         **all animal properties***
+                                         **all methods**
+                                         bleed:str                                      
+   weight:int
+   color:str
+   age:str
+   type:str
+
+
+   def Talk(self):
+     print("Animal will make sound")
+
+#if we wanted, we can override those parent functionalities in child ..
+# Talk is generic, we can override that in Dog class to say Bark instead..
+# in Dog class we can define def Talk(self):
+                                    print("this dog barks")
+#so parent class only acts as a fall back
+
+
+
+
+
+
 4.polymorphism
 
